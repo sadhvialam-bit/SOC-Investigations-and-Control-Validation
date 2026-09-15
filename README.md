@@ -6,7 +6,7 @@ Leveraging over a decade of experience in corporate finance and internal control
 
 This repository serves as a master record of my live-environment investigations, Post-Incident Reports, and compliance documentation.
 
-## ⚙️ Core Competencies
+##  Core Competencies
 
 **Security Operations (SOC)**
 * **SIEM & EDR:** Microsoft Sentinel, Microsoft Defender XDR
@@ -20,17 +20,17 @@ This repository serves as a master record of my live-environment investigations,
 
 ---
 
-## 📂 Repository Navigation
+##  Repository Navigation
 
 This portfolio is divided into two primary tracks, demonstrating both hands-on technical execution and strategic risk management.
 
-### [🛡️ 01 - Security Operations (SOC)](https://github.com/sadhvialam-bit/SOC-Investigations-and-Control-Validation/tree/01---Security-Operations-(SOC))
+### [ 01 - Security Operations (SOC)](https://github.com/sadhvialam-bit/SOC-Investigations-and-Control-Validation/tree/01---Security-Operations-(SOC))
 Technical investigations focused on detecting and neutralizing active threats.
 * **Endpoint Malware Execution:** KQL queries and Defender isolation playbooks for Living-off-the-Land (LotL) binary execution.
 * **Identity Compromise:** Brute-force detection and geographic anomaly alerting via Entra ID logs.
 * **Network Port Scanning:** Firewall log analysis to detect external reconnaissance.
 
-### [📋 02 - Governance, Risk, and Compliance (GRC)](https://github.com/sadhvialam-bit/SOC-Investigations-and-Control-Validation/tree/02---Governance%2C-Risk%2C-and-Compliance-(GRC))
+### [ 02 - Governance, Risk, and Compliance (GRC)](https://github.com/sadhvialam-bit/SOC-Investigations-and-Control-Validation/tree/02---Governance%2C-Risk%2C-and-Compliance-(GRC))
 Process-driven documentation focused on business risk and control validation.
 * **AI Agent Risk Assessment:** Validating LLM guardrails against indirect prompt injection (OWASP LLM01) in automated financial workflows. 
 * **Network Control Audits:** Validating Network Security Group (NSG) configurations against enterprise baselines.
