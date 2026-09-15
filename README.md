@@ -27,7 +27,7 @@ This repository serves as a master record of my live-environment investigations,
 
 This portfolio is divided into two primary tracks, demonstrating both hands-on technical execution and strategic risk management.
 
-### [01 - Security Operations (SOC)](link-to-folder)
+### [01 - Security Operations (SOC)]((https://github.com/sadhvialam-bit/SOC-Investigations-and-Control-Validation/tree/01---Security-Operations-(SOC))
 *Technical investigations focused on detecting and neutralizing active threats.*
 *   **Endpoint Malware Execution:** KQL queries and Defender isolation playbooks for Living-off-the-Land (LotL) binary execution.
 *   **Identity Compromise:** Brute-force detection and geographic anomaly alerting via Entra ID logs.
