@@ -33,7 +33,7 @@ This portfolio is divided into two primary tracks, demonstrating both hands-on t
 *   **Identity Compromise:** Brute-force detection and geographic anomaly alerting via Entra ID logs.
 *   **Network Port Scanning:** Firewall log analysis to detect external reconnaissance.
 
-### [02 - Governance, Risk, and Compliance (GRC)](link-to-folder)
+### [02 - Governance, Risk, and Compliance (GRC)](https://github.com/sadhvialam-bit/SOC-Investigations-and-Control-Validation/tree/02---Governance%2C-Risk%2C-and-Compliance-(GRC))
 *Process-driven documentation focused on business risk and control validation.*
 *   **Network Control Audits:** Validating Network Security Group (NSG) configurations against enterprise baselines.
 *   **Vulnerability Management:** Assessing and prioritizing remediation based on CVSS scoring and business impact.
