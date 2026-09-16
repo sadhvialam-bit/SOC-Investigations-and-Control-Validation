@@ -31,5 +31,5 @@ Upon ingesting the compromised invoice, the agent parsed the external data again
 
 ---
 ### 🔗 Portfolio Cross-Link
-*To review the technical environment setup and the raw prompt-injection payload syntax used in this assessment, please view the [SOC Technical Execution Report here](https://github.com/sadhvialam-bit/SOC-Investigations-and-Control-Validation/tree/01---Security-Operations-(SOC)/AI-Prompt-Injection-Execution).*
+*This repository focuses on the technical execution of the payload. For the executive risk assessment, OWASP LLM01 framework mapping, and governance recommendations regarding this vulnerability, please view the [GRC Risk Assessment Report here](https://github.com/sadhvialam-bit/SOC-Investigations-and-Control-Validation/tree/02---Governance%2C-Risk%2C-and-Compliance-(GRC)/AI-Agent-Risk-Assessment).*
 
