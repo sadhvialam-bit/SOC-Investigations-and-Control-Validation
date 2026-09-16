@@ -27,3 +27,7 @@ This assessment maps directly to the **OWASP Top 10 for LLMs (LLM01: Prompt Inje
 However, defense-in-depth is still required. To safely deploy AI agents for financial or administrative operations, organizations must implement:
 1. **Human-in-the-Loop:** Hardcoded approval gates for all destructive actions such as deleting events or outbound data flows such as sending emails.
 2. **Strict Principle of Least Privilege (PoLP):** Isolating the agent's workspace to ensure that even if a payload successfully bypasses the AI's logic, it lacks the system permissions to execute a wider network attack.
+
+---
+### 🔗 Portfolio Cross-Link
+*To review the technical environment setup and the raw prompt-injection payload syntax used in this assessment, please view the [SOC Technical Execution Report here](https://github.com/sadhvialam-bit/SOC-Investigations-and-Control-Validation/tree/01---Security-Operations-(SOC)/AI-Agent-Risk-Assessment).*
