@@ -1,11 +1,12 @@
 # Proactive Threat Hunt: Endpoint Compromise & C2 Beaconing
 
+![Help Desk Ticket #4451](Screenshot%201_2.jpg)
+
 ## Deliverable 2: Investigation Report
 * **Ticket Number:** Help Desk Ticket #4451
 * **Reporter:** Mark Smith (Finance Department)
 * **Impacted Asset:** `npt-ws01`
 * **Incident Window:** 22 April 2026, 04:30 to 06:00 UTC
-
 
 ### Forensic Timeline & KQL Evidence
 
@@ -14,23 +15,28 @@ The attacker bypassed standard user accounts and successfully authenticated over
 
 *   **Execution Command:** `cmd.exe /Q /c start "" "C:\Windows\Temp\WindowsUpdate.exe"`
 *   **Implant SHA256:** `20cef6a013953890f9d38605d25d60dd63b42b09946bbb18ddb4a456da306e77`
-*   *[Insert DeviceProcessEvents and DeviceFileEvents KQL Screenshot Here]*
+
+![Initial Access Evidence - Execution](Screenshot%202.png)
+![Initial Access Evidence - File Drop](Screenshot%203.png)
 
 **2. Command & Control (C2)**
 Upon execution, the implant immediately initiated outbound C2 beaconing over port 443.
 *   **C2 Domain:** `updates.abordasync.website`
-*   *[Insert DeviceNetworkEvents KQL Screenshot Here]*
+
+![Command and Control Evidence](Screenshot%204.png)
 
 **3. Persistence Mechanisms**
 The attacker established multiple redundant persistence mechanisms disguised as legitimate Windows services and updaters:
 *   **Registry Run Key:** `WindowsHealthCheck`
 *   **Scheduled Task:** `GoogleUpdaterTask`
 *   **System Service:** `WindowsHealthSvc`
-*   *[Insert DeviceRegistryEvents / DeviceProcessEvents KQL Screenshot Here]*
+
+![Persistence Mechanisms Evidence](Screenshot%205.png)
 
 **4. Privilege Escalation & Lateral Movement**
 The threat actor executed `net.exe` commands to create a local backdoor account named `nexus_admin` and subsequently added it to the local Administrators group. Telemetry indicates the attacker then attempted lateral movement toward a secondary host, `npt-srv01`.
-*   *[Insert Privilege Escalation / AlertEvidence KQL Screenshot Here]*
+
+![Privilege Escalation Evidence](Screenshot%206.png)
 
 ## Deliverable 1: Tactical Containment Plan
 To halt the active intrusion and eradicate the attacker's footprint, the following actions are required immediately:
