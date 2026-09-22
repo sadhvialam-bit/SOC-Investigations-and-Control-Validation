@@ -1,6 +1,6 @@
 # Proactive Threat Hunt: Endpoint Compromise & C2 Beaconing
 
-![Help Desk Ticket #4451](Screenshot%201.jpg)
+![Help Desk Ticket #4451](Screenshot%201_2.jpg)
 
 ## Deliverable 2: Investigation Report
 * **Ticket Number:** Help Desk Ticket #4451
