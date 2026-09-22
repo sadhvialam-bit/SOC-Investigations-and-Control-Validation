@@ -6,7 +6,6 @@
 * **Impacted Asset:** `npt-ws01`
 * **Incident Window:** 22 April 2026, 04:30 to 06:00 UTC
 
-![SOC Situation](https://imgur.com/a/QgrSNob)
 
 ### Forensic Timeline & KQL Evidence
 
