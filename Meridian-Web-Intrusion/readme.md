@@ -1,4 +1,4 @@
-# Meridian Web Intrusion: SQL Injection & Defense Evasion
+# Meridian Web Intrusion: SQL Injection & Defense Evasion (Threat Hunt)
 
 ## Executive Summary
 * **Target Asset:** `ip-10-1-15-67` (Ubuntu 22.04)
