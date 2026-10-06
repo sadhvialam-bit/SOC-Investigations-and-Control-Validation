@@ -49,5 +49,6 @@ To align with corporate auditing standards and internal control frameworks, the 
 
 *Execution of endpoint isolation procedures (Containment Control).*
 
-![NSG Secured](Evidence_8e.png)
+<img width="1298" height="586" alt="Evidence_8e" src="https://github.com/user-attachments/assets/30fcb44b-ed0c-45ee-8f0c-0c5e883a920c" />
+
 *Eradication of vulnerable NSG rules, restoring network access controls.*
