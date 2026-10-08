@@ -13,4 +13,4 @@ To showcase practical, command-line-driven engineering skills. The projects here
 *   **Control Validation:** Utilizing Tenable Nessus authenticated scans to mathematically verify that technical remediations successfully mitigated targeted CVEs.
 
 ---
-*If you are interested in the policy, risk analysis, and stakeholder communication surrounding these technical fixes, please visit the [GRC Branch]([../02---Governance,-Risk,-and-Compliance-(GRC)](https://github.com/sadhvialam-bit/SOC-Investigations-and-Control-Validation/tree/02---Governance%2C-Risk%2C-and-Compliance-(GRC))).*
+*If you are interested in the policy, risk analysis, and stakeholder communication surrounding these technical fixes, please visit the [GRC Branch](https://github.com/sadhvialam-bit/SOC-Investigations-and-Control-Validation/tree/02---Governance%2C-Risk%2C-and-Compliance-(GRC)).*
