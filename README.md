@@ -29,6 +29,7 @@ Technical investigations focused on detecting and neutralizing active threats.
 * **Endpoint Malware Execution:** KQL queries and Defender isolation playbooks for Living-off-the-Land (LotL) binary execution.
 * **Identity Compromise:** Brute-force detection and geographic anomaly alerting via Entra ID logs.
 * **Network Port Scanning:** Firewall log analysis to detect external reconnaissance.
+* **System Hardening & Remediation:** Applying OS-level STIGs and managing patching lifecycles to mitigate critical CVEs on Windows Server
 
 ### [ 02 - Governance, Risk, and Compliance (GRC)](https://github.com/sadhvialam-bit/SOC-Investigations-and-Control-Validation/tree/02---Governance%2C-Risk%2C-and-Compliance-(GRC))
 Process-driven documentation focused on business risk and control validation.
