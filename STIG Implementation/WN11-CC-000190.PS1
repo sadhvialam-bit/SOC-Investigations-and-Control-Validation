@@ -6,8 +6,8 @@
     Author          : Sadhvi Alam
     LinkedIn        : linkedin.com/in/sadhvi-alam-2643a430/
     GitHub          : github.com/sadhvialam-bit
-    Date Created    : 2026-10-08
-    Last Modified   : 2026-10-08
+    Date Created    : 2026-10-09
+    Last Modified   : 2026-10-09
     Version         : 1.0
     CVEs            : N/A
     Plugin IDs      : N/A
@@ -15,7 +15,7 @@
     Documentation   : https://stigaview.com/products/win11/latest/
 
 .TESTED ON
-    Date(s) Tested  : 2026-10-08
+    Date(s) Tested  : 2026-10-09
     Tested By       : Sadhvi Alam
     Systems Tested  : Windows Azure VM
     PowerShell Ver. : 5.1+
@@ -28,12 +28,10 @@
 
 Write-Host "Remediating WN11-CC-000190: Disabling Autoplay for all drives..." -ForegroundColor Cyan
 
-# Define the registry path and value name
 $registryPath = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer"
 $name = "NoDriveTypeAutoRun"
 $value = 255
 
-# Create the key if it does not exist, then enforce the STIG value
 If (!(Test-Path $registryPath)) { 
     New-Item -Path $registryPath -Force | Out-Null
 }
