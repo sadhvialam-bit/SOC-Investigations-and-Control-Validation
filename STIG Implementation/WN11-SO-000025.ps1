@@ -1,0 +1,33 @@
+<#
+.SYNOPSIS
+    This PowerShell script renames the built-in guest account to mitigate unauthorized access.
+
+.NOTES
+    Author          : Sadhvi Alam
+    LinkedIn        : linkedin.com/in/sadhvi-alam-2643a430/
+    GitHub          : github.com/sadhvialam-bit
+    Date Created    : 2026-10-09
+    Last Modified   : 2026-10-09
+    Version         : 1.0
+    CVEs            : N/A
+    Plugin IDs      : N/A
+    STIG-ID         : WN11-SO-000025
+    Documentation   : https://stigaview.com/products/win11/latest/
+
+.TESTED ON
+    Date(s) Tested  : 2026-10-09
+    Tested By       : Sadhvi Alam
+    Systems Tested  : Windows Azure VM
+    PowerShell Ver. : 5.1+
+
+.USAGE
+    Execute the script as Administrator to apply the STIG remediation.
+    Example syntax:
+    PS C:\> .\remediation-STIG-ID-WN11-SO-000025.ps1 
+#>
+
+Write-Host "Remediating WN11-SO-000025: Renaming the built-in guest account..." -ForegroundColor Cyan
+
+Rename-LocalUser -Name "Guest" -NewName "UnidentifiedGuest" -ErrorAction SilentlyContinue
+
+Write-Host "Remediation applied successfully. Please restart the VM and rescan." -ForegroundColor Green
