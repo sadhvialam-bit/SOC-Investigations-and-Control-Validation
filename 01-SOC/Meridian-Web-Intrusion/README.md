@@ -1,4 +1,4 @@
-# Threat Hunt Report: Meridian Investigation
+# Threat Hunt Report: Meridian Investigation (Local File Inclusion)
 
 **Participant:** Sadhvi Alam
 **Date:** September 2026
@@ -116,7 +116,7 @@ MeridianDefender_CL
 
 ### Data Collection:
 
-he attacker successfully exported the highest-value target from the healthcare portal's database.
+The attacker successfully exported the highest-value target from the healthcare portal's database.
 
 ```
 MeridianDefender_CL
