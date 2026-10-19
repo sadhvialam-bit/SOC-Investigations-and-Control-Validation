@@ -33,6 +33,7 @@ Technical companion for the AI assessment: [AI Agent Technical Execution](01-SOC
 | [Vulnerability Management](02-GRC/Vulnerability-Management/) | GRC | CVSS / SLA policy; Tenable Nessus; CAB | Critical/High findings driven through policy SLAs to verified remediation |
 | [Endpoint Containment Audit](02-GRC/Endpoint-Containment-Audit/) | GRC | IR policy / SLA; Defender isolation | Documented containment control effectiveness on a finance AP workstation |
 | [Proactive Threat Hunt (GRC)](02-GRC/Proactive-Threat-Hunt/) | GRC | NIST SP 800-61 framing | Executive risk view of finance endpoint compromise (dwell time, control gaps, remediations) |
+| [SOC 2 Readiness Assessment](02-GRC/SOC2-Readiness-Assessment/) | GRC | ISO 27001:2022, NIST CSF 2.0 | SOC 2 Type I readiness assessment for a simulated SaaS company: 40-control matrix mapped to ISO 27001:2022 and NIST CSF 2.0, gap assessment, scored risk register, policies, and auditor evidence request list. |
 | [Cloud Honeypot Capstone](01-SOC/Cloud-Honeypot-Capstone/) | SOC | Sentinel, Defender, Azure, MySQL audit logs | End-to-end IR: detection, forensics, isolation, NSG eradication, recovery |
 | [Meridian Web Intrusion](01-SOC/Meridian-Web-Intrusion/) | SOC | KQL; Log Analytics | Reconstructs LFI → credential reuse → SUID priv-esc → persistence → exfiltration (Diamond Model) |
 | [Proactive Threat Hunt](01-SOC/Proactive-Threat-Hunt/) | SOC | Defender Advanced Hunting (KQL) | LotL execution, C2 beaconing, persistence, and containment plan for `npt-ws01` |
